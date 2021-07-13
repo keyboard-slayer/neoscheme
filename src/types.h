@@ -1,4 +1,4 @@
-#pragma once 
+#pragma once
 
 #include <stdbool.h>
 #include <stddef.h>
@@ -20,7 +20,7 @@ typedef struct scm_var
 {
     enum scm_types type;
 
-    union 
+    union
     {
         bool _bool;
         ssize_t _nbr;
@@ -30,7 +30,6 @@ typedef struct scm_var
         vec_t(struct scm_var) _toks;
     };
 } scm_var_t;
-
 
 scm_var_t scm_token(enum scm_types type, void *ptr);
 void scm_print_var(scm_var_t var);
