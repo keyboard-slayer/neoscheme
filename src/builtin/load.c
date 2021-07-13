@@ -9,7 +9,7 @@ scm_var_t scm_load(vec_scm_var_t args)
 
     ret.type = SCM_NIL;
     ret._nbr = 0;
-
+    
     if (args.length != 1)
     {
         assert(0);
