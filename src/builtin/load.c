@@ -1,7 +1,9 @@
 #include <assert.h>
 #include <eval.h>
+#include <libgen.h>
 #include <stdio.h>
 #include <types.h>
+#include <unistd.h>
 #include <vec/vec.h>
 
 scm_var_t scm_load(scm_var_t args)
@@ -38,7 +40,13 @@ scm_var_t scm_load(scm_var_t args)
     fclose(fp);
 
     buffer[size] = 0;
+
+    char cwd[128];
+    getcwd(cwd, 128);
+
+    chdir(dirname(args._toks.data[0]._str));
     scm_eval(buffer, false);
+    chdir(cwd);
 
     free(buffer);
     return scm_token_nil;
