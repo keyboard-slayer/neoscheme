@@ -2,16 +2,16 @@
 <p align="center">Scheme with a modern touch</p>
 <br />
 <p align="center">
-    <a href="https://github.com/not-microsowoft/neoscheme/blob/main/LICENSE">
-        <img src="https://img.shields.io/github/license/not-microsowoft/neoscheme?style=for-the-badge"/>
+    <a href="https://github.com/keyboard-slayer/neoscheme/blob/main/LICENSE">
+        <img src="https://img.shields.io/github/license/keyboard-slayer/neoscheme?style=for-the-badge"/>
     </a>
     &nbsp;
-    <a href="https://github.com/not-microsowoft/neoscheme/issues">
-             <img src="https://img.shields.io/github/issues/not-microsowoft/neoscheme?style=for-the-badge"/>
+    <a href="https://github.com/keyboard-slayer/neoscheme/issues">
+             <img src="https://img.shields.io/github/issues/keyboard-slayer/neoscheme?style=for-the-badge"/>
     </a>
     &nbsp;
-    <a href=https://github.com/not-microsowoft/neoscheme/pulls>
-       <img src="https://img.shields.io/github/issues-pr/not-microsowoft/neoscheme?style=for-the-badge"/>
+    <a href=https://github.com/keyboard-slayer/neoscheme/pulls>
+       <img src="https://img.shields.io/github/issues-pr/keyboard-slayer/neoscheme?style=for-the-badge"/>
     </a>
     &nbsp;
 </p>
